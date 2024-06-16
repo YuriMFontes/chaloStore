@@ -42,7 +42,7 @@ body {
     .carousel-item {
         height: 500px; 
     }
-      
+
     .carousel-item img {
         object-fit: cover; 
         height: 100%; 
@@ -52,6 +52,7 @@ body {
     .carousel-item {
         height: 250px; 
         } 
+
       
     .carousel-item img {
         object-fit: cover; 

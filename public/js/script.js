@@ -18,3 +18,15 @@ setInterval(function() {
             toggleIcon.classList.add('fa-eye');
         }
     }
+
+// Detecta quando o usuário faz scroll na página
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('.header-small');
+
+    // Verifica a posição do scroll
+    if (window.scrollY > 50) { // Exemplo: quando o scroll passar de 50 pixels
+        header.classList.add('active'); // Adiciona a classe .active para mostrar o header menor
+    } else {
+        header.classList.remove('active'); // Remove a classe .active para esconder o header menor
+    }
+});

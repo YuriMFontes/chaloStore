@@ -6,6 +6,20 @@
         height: auto;
         margin: 0vw 2vw;
     }
+
+    header {
+        position: relative;
+        transition: top 0.3s ease-in-out;
+        z-index: 1000;
+    }
+    
+    .header-fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
     
     /*Cabeçalho rosa*/
     .header-info {
@@ -15,7 +29,7 @@
         text-align: center;
         background: linear-gradient(to right, #ffcbdb, #ffa1bd, #ff90b1, #fd729c);
     }
-
+    
     .header-info p {
         padding: 0.3vw;
     }
@@ -190,6 +204,20 @@
         margin: 0 4vw;
 
     }
+
+    header {
+        position: relative;
+        transition: top 0.3s ease-in-out;
+        z-index: 1000;
+    }
+    
+    .header-fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
     
     /* Cabeçalho rosa */
     .header-info{
@@ -317,5 +345,19 @@
         font-size: 0.5vw;
         font-weight: bold;
     }
+}
+
+.header-small {
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: -300px; 
+    transition: top 0.3s ease-in-out; 
+    z-index: 1000;
+}
+
+.header-small.active {
+    top: 0; 
 }
     
