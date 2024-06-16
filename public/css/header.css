@@ -1,0 +1,321 @@
+@media (max-width:990px){
+
+    /*Logo*/
+    .logo {
+        width: 16vw; 
+        height: auto;
+        margin: 0vw 2vw;
+    }
+    
+    /*Cabeçalho rosa*/
+    .header-info {
+        height: 4.5vw;
+        font-weight: bold;
+        font-size: 3vw;
+        text-align: center;
+        background: linear-gradient(to right, #ffcbdb, #ffa1bd, #ff90b1, #fd729c);
+    }
+
+    .header-info p {
+        padding: 0.3vw;
+    }
+
+    .header-info i {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /*Icones*/
+    #icon {
+        margin-right: 2vw;
+        font-size: 5vw;
+    }
+
+    .navbar-nav.ms-auto li.nav-item a.nav-link {
+        font-size: 1.2vw;
+        font-weight: 400;
+        color: white;
+        padding-right: 1.5vw;
+    }
+
+    .navbar-nav.ms-auto li.nav-item a.nav-link:hover {
+        color: #fd729c;
+    }
+
+    /*Menu hamburguer*/
+    .hamburger-menu i {
+        color: white;
+    }
+
+    /*Barra de pesquisa*/
+    .input-group .form-control:focus {
+        box-shadow: none;
+        color: #f7467b;
+    }
+    .input-group .form-control{
+        border-radius: 15px;
+    }
+
+    .input-group .btn {
+        border: none;
+    }
+
+    .input-group-append .btn {
+        border: 0;
+        background-color: #fd729c;
+        border-top-right-radius:  15px;
+        border-bottom-right-radius: 15px;
+        height: 100%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .input-group-append .btn:hover {
+        background-color: #fd729c;
+    }
+
+    .search{
+        width: 100%; 
+        background-color: black;
+    }
+    .search form{
+        width: 100%;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    /*Desativar pagina g*/
+    #g {
+        display: none;
+    }
+
+    /*Sliderbar*/
+    #colection{
+        font-weight: bold;
+        border-radius: 15px;
+        font-size: 2.5vh;
+        background-color: #ffffff;
+    }
+
+    .offcanvas-header{
+        background-image: url(../images/background\ navbar.jpg);
+    }
+    .offcanvas-body{
+        background-image: url(../images/background\ navbar.jpg);
+    }
+
+    #colection .nav-item {
+        padding: 3px;
+        border-bottom: 1px solid #ccc; 
+    }
+    #colection .nav-item a{
+        padding-left: 10px;
+        color: black;
+    }
+    #colection .nav-item a:hover{
+        color: #fd729c;
+    }
+    
+    /*botão 3 linhas*/
+    #p .navbar-toggler{
+        width: 7vw;
+        height: 7vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*botão de fechar*/
+    .offcanvas-header .btn-close{
+        opacity: 1;
+    }
+    /* Estilo para o carrossel */
+
+    .nav-item span{
+        background-color: #f7467b;
+        position: absolute;
+        margin-left: 4vw;
+
+    }
+
+
+    .cart-container {
+        position: relative;
+        display: inline-block;
+    }
+    
+    
+    .cart-count {
+        position: absolute;
+        top: -3vw;
+        right: -0.5vw;
+        background-color: #f7467b;
+        color: white;
+        padding: 1vw 1.5vw;
+        border-radius: 50%;
+        font-size: 2vw;
+        font-weight: bold;
+    }   
+    .footer-media-container,
+    .form-inline {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .footer-media .row {
+        margin-bottom: 20px; 
+    }
+
+    .form-inline input {
+        width: 100%; 
+        margin: 5px 0; 
+        max-width: none; 
+    }
+
+    .input-btn {
+        width: 40%; 
+        margin: 5px 0; 
+    }
+    
+
+}
+    
+/*maior que 991px*/
+
+@media (min-width: 991px){
+    .logo{
+        width: 8vw; 
+        height: auto;
+        margin: 0 4vw;
+
+    }
+    
+    /* Cabeçalho rosa */
+    .header-info{
+        height: 2vw;
+        font-weight: bold;
+        font-size: 1vw;
+        text-align: center;
+        background: linear-gradient(to right, #ffcbdb, #ffa1bd, #ff90b1, #fd729c);
+    }
+
+    .header-info p{
+        padding: 0.3vw;
+    }
+
+    .header-info i{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /*Fim do cabeçalho rosa*/
+
+    
+    .linha-separadora {
+        display: inline-block;
+        width: 2px; 
+        height: 3vw;
+        background-color: #ccc; 
+        margin: 0 10px; 
+    }
+    
+    #icon{
+        margin-right: 0.5vw;
+    }
+    
+    .d-flex .form-control{
+        border-radius: 5vw;
+    }
+    
+
+    .navbar-nav.ms-auto li.nav-item a.nav-link {
+        font-size: 1.2vw;
+        font-weight: 400;
+        color: white;
+        padding-right: 1.5vw
+    }
+
+    .navbar-nav.ms-auto li.nav-item a.nav-link:hover {
+        color: #fd729c;
+    }
+
+
+    /*Pesquisar*/
+    .input-group .form-control:focus {
+        box-shadow: none;
+        color: #f7467b;
+    }
+    .input-group .btn {
+        border: none;
+    }
+    .form-control {
+        border-right: 0;
+    }
+    .input-group-append .btn {
+        border: 0;
+    }
+    .input-group-append .btn:hover {
+        background-color: #fd729c;
+        border-radius: 50px;
+    }
+    
+    .row .col{
+        padding: 0.5vw 6vw;
+        width: 50vw;
+    }
+
+    #p{
+        display: none;
+    }
+
+    /*Abaixo da navbar*/
+    
+    .category-tabs .nav-link {
+        color: #fd729c;
+        padding-bottom: 1vw;
+        position: relative; 
+    }
+
+    .category-tabs .nav-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fd729c;
+        transition: width 0.3s;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .category-tabs .nav-link:hover::after {
+        width: 100%;
+    }
+
+    .category-tabs .nav-link:hover {
+        color: #ffffff;
+        padding-bottom: 1vw;
+    }
+
+    .cart-container {
+        position: relative;
+        display: inline-block;
+        margin-left: 8px;
+        margin-right: 10px;
+    }
+    
+    
+    .cart-count {
+        position: absolute;
+        top: -0.5vw;
+        right: -0.5vw;
+        background-color: #f7467b;
+        color: white;
+        padding: 0.3vw 0.5vw;
+        border-radius: 50%;
+        font-size: 0.5vw;
+        font-weight: bold;
+    }
+}
+    
